@@ -1,0 +1,79 @@
+/* 🌈 Background Gradient */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #e3f2fd, #ffffff);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 💻 Code Font (keep it) */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* 🧱 Card Styling */
+.card {
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+  border: none;
+}
+
+/* ✨ Hover Effect */
+.card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* 🔘 Buttons */
+button {
+  border-radius: 10px !important;
+  padding: 8px 16px;
+  font-weight: 500;
+}
+
+/* 🔘 Button Hover */
+button:hover {
+  opacity: 0.9;
+}
+
+/* 📊 Tables */
+table {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* 📊 Table Header */
+thead {
+  background-color: #0d6efd;
+  color: white;
+}
+
+/* 📊 Table Rows Hover */
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* 🧭 Navbar Custom */
+.navbar {
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+/* 🏷 Headings */
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+/* 🔍 Input Fields */
+input {
+  border-radius: 10px !important;
+  padding: 8px;
+}
+
+/* 📦 Cards spacing fix */
+.card p {
+  margin: 0;
+  color: #555;
+}
+
